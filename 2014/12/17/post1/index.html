@@ -75,7 +75,7 @@
     </p>
   <p class="article-time">
     <time datetime="2014-12-17T11:16:59.000Z" itemprop="datePublished">12月 17 2014</time>
-    更新日期:<time datetime="2014-12-17T11:18:42.000Z" itemprop="dateModified">12月 17 2014</time>
+    更新日期:<time datetime="2014-12-17T12:44:05.000Z" itemprop="dateModified">12月 17 2014</time>
     
   </p>
 </header>
@@ -88,10 +88,12 @@
 		</div>
 		
 		<h1 id="1-Java语言中运算符的分类">1.Java语言中运算符的分类</h1>
-<p>算数运算符：+，—，<em>，/，++，—，%；<br>关系运算符：&gt;，&lt;，&gt;=，&lt;=，==（xx是否等于xx），！=；<br>布尔逻辑运算符：！，&amp;，|，^，&amp;&amp;，||；<br>位运算符：&amp;，|，^，~，&gt;&gt;，&lt;&lt;，&gt;&gt;&gt;；<br>赋值运算符：=；扩展赋值运算符+=，-=，</em>=，/=*<br>字符串连接运算符：+</p>
+<p><strong>算数运算符：</strong>+，—，<em>，/，++，—，%；<br><strong>关系运算符：</strong>&gt;，&lt;，&gt;=，&lt;=，==（xx是否等于xx），！=；<br><strong>布尔逻辑运算符：</strong>！，&amp;，|，^，&amp;&amp;，||；<br><strong>位运算符：</strong>&amp;，|，^，~，&gt;&gt;，&lt;&lt;，&gt;&gt;&gt;；<br><strong>赋值运算符：</strong>=；<br><strong>扩展赋值运算符:</strong>+=，-=，</em>=，/=<em><br><em>*字符串连接运算符：</em></em>+</p>
+<p><img src="http://i3.tietuku.com/a115cc7657888c56.jpg" alt="逻辑运算符："></p>
 <h1 id="2-几种运算符的实例">2.几种运算符的实例</h1>
 <p>int i = 3 / 2 计算出值为1<br>double i = 3/2.0 计算出值为1.5 表达式的类型取决于可表示最大范围的数据类型</p>
 <p>i++ 与 ++i 的区别<br>i++ 表示 i先参与后面的运算，再加1；<br>++i 表示 i先加1，然后再参与后面的运算；</p>
+<p><img src="http://i3.tietuku.com/5275e2e5d2a589ca.jpg" alt="怎样确定表达式的类型"></p>
 <p>boolean 类型的表达式只有两种结果：True 和 False；</p>
 <h4 id="练习1：">练习1：</h4>
 <pre><code><span class="keyword">public</span> <span class="keyword">class</span> Test1{
@@ -99,7 +101,7 @@
     <span class="keyword">int</span> i = <span class="number">5</span>;
     <span class="keyword">int</span> j = <span class="number">7</span>;
     boolean e = i&gt;j;
-    System.<span class="keyword">out</span>.printin(e);
+    System.<span class="keyword">out</span>.println(e);
     }
 }
 </code></pre><h4 id="练习2：">练习2：</h4>
@@ -112,7 +114,7 @@
     }
 }
 </code></pre><p>练习1返回的值为false；练习2中返回的e为false，i为3，因为&amp;&amp;为“短路与”运算符，只需要判断出i&gt;5即可得出e为false，而 i++ &gt; 4这一步也无需再运算，因此i的值返回为 3。</p>
-<p>总结：逻辑运算符在编写代码中比较常用，要牢记它的含义，使用方法和规则以及使用的场景。另在编写代码时要养成良好的习惯：<br>1.主函数要特别熟练地写出来；<br>2.每一行表达式后应该注意不要遗漏分号（英文版的”;”）；<br>3.还要注意表达式中的空格。</p>
+<p><strong>总结：</strong>逻辑运算符在编写代码中比较常用，要牢记它的含义，使用方法和规则以及使用的场景。另在编写代码时要养成良好的习惯：<br>1.主函数要特别熟练地写出来；<br>2.每一行表达式后应该注意不要遗漏分号（英文版的”;”）；<br>3.还要注意表达式中的空格。</p>
   
 	</div>
 		<footer class="article-footer clearfix">
